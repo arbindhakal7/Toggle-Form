@@ -9,11 +9,14 @@ loginBtn.addEventListener("click",()=>{
     moveBtn.classList.add("rightBtn")
     login.classList.add("loginForm")
     signup.classList.remove("signupForm")
+    moveBtn.innerHTML = "Login"
 
 })
 
 signupBtn.addEventListener("click",()=>{
     moveBtn.classList.remove("rightBtn")
     login.classList.remove("loginForm")
-    signup.classList.add("loginForm")
+    signup.classList.add("signupForm")
+    moveBtn.innerHTML = "Registration"
+
 })

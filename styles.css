@@ -1,125 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
-.wrapper{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(95, 95, 95, 0.39);
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-.modelform{
-    width: 400px;
-    min-height: 80vh;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(128, 128, 128, 0.185);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.actionBtns{
-    width: 80%;
-    background-color: royalblue;
-    margin: 2em;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    border-radius: 50px;
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+.modelform {
+  width: 400px;
+  min-height: 80vh;
+  background-color: rgba(245, 222, 179, 0.397);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
-.actionBtn{
-    padding: 1em;
-    width: 50%;
-    outline: none;
-    border: none;
-    background-color: transparent;
-    border-radius: 50px;
-    color: white;
-    font-size: 0.8em;
-    font-weight: 777;
-    cursor: pointer;
+.actionBtns {
+  width: 80%;
+  background-color: royalblue;
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
-.moveBtn{
-    position: absolute;
-    width: 50%;
-    height: 90%;
-    margin: 2px;
-    border: none;
-    outline: none;
-    border-radius: 50px;
-    background-color: white;
-    font-size: 0.7em;
-    font-weight: 777;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    transform: translateX(0);
-    transition: all 0.2s ease-in-out;
+.actionBtn {
+  padding: 1em;
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-radius: 50px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 777;
+  cursor: pointer;
 }
 
-.rightBtn{
-    transform: translateX(98%);
-    transition: all 0.2s ease-in-out;
+.moveBtn {
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  margin: 2px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 0.7em;
+  font-weight: 777;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: translateX(0);
+  transition: all 0.2s ease-in-out;
 }
 
-.inputGroup{
-    width: 300px;
-    margin: 0.8em 0;
-    background-color: rgb(245, 245, 245);
-    box-shadow: rgba(0,0,0,0.12) 0px 1px 3px, rgba(0,0,0,0.24) 0px 1px 2px;
-    font-weight: 500;
+.rightBtn {
+  transform: translateX(98%);
+  transition: all 0.2s ease-in-out;
 }
 
-.inputGroup input{
-    width: 100%;
-    padding: 1em 2em;
-    background-color: transparent;
-    border: none;
-    border-radius: 50px;
+.inputGroup {
+  width: 300px;
+  margin: 0.8em 0;
+  background-color: rgb(245, 245, 245);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  font-weight: 500;
 }
 
-.inputGroup input:focus{
-    outline: none;
+.inputGroup input {
+  width: 100%;
+  padding: 1em 2em;
+  background-color: transparent;
+  border: none;
+  border-radius: 50px;
 }
 
-.submit{
-    width: 150px;
-    padding: 1em;
-    margin: 2em 0;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: white;
-    box-shadow: rgba(0,0,0,0.12) 0px 1px 3px, rgba(0,0,0,0.24) 0px 1px 2px;
-    cursor: pointer;
-    font-size: 0.8em;
-    font-weight: 777;
-    transition: all 0.3s ease-in-out;
+.inputGroup input:focus {
+  outline: none;
 }
 
-.submit:hover{
-    background-color: royalblue;
-    color: white;
-    transition: all 0.3s ease-in-out;
+.submit {
+  width: 150px;
+  padding: 1em;
+  margin: 2em 0;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 777;
+  transition: all 0.3s ease-in-out;
 }
 
-.form{
-    display: none;
+.submit:hover {
+  background-color: royalblue;
+  color: white;
+  transition: all 0.3s ease-in-out;
 }
-.signupForm{
-    display: block;
+
+.form {
+  display: none;
 }
-.loginForm{
-    display: block;
+.signupForm {
+  display: block;
+}
+.loginForm {
+  display: block;
 }
