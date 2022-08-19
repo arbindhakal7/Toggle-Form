@@ -6,3 +6,37 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(95, 95, 95, 0.39);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modelform{
+    width: 400px;
+    min-height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actionBtns{
+    width: 80%;
+    background-color: royalblue;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.moveBtn{
+    position: absolute;
+}
