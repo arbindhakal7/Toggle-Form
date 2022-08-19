@@ -113,3 +113,13 @@
     color: white;
     transition: all 0.3s ease-in-out;
 }
+
+.form{
+    display: none;
+}
+.signupForm{
+    display: block;
+}
+.loginForm{
+    display: block;
+}
